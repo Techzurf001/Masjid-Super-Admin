@@ -1,12 +1,16 @@
 import './App.css'
-import IslamicFeatures from './components/IslamicEvents'
+import Gallery from './components/Gallery'
+// import Feedback from './components/Feedback'
+// import IslamicFeatures from './components/IslamicEvents'
 // import MasjidComponent from './components/MasjidComponent'
 
 function App() {
   return (
     <>
       {/* <MasjidComponent/> */}
-      <IslamicFeatures/>
+      {/* <IslamicFeatures/> */}
+      <Gallery/>
+      {/* <Feedback/> */}
     </>
   )
 }

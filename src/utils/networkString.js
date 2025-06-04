@@ -1,6 +1,7 @@
 // src/utils/networkStrings.js
 // export const BASE_URL = "http://103.235.105.106:3000/api";
-export const BASE_URL = "http://192.168.29.120:3000/api";
+// export const BASE_URL = "http://192.168.29.120:3000/api";
+export const BASE_URL = "http://192.168.1.10:3000/api";
 
 export const NetworkString = {
   MASJID_LIST: `${BASE_URL}/masjid/get`,
@@ -9,4 +10,8 @@ export const NetworkString = {
   ISLAMICFEATURES_CREATE: `${BASE_URL}/islamicevents/add`,
   GALLERY_LIST: `${BASE_URL}/gallery/gallery`,
   GALLERY_CREATE: `${BASE_URL}/gallery/addgallery`,
+  FEEDBACK_LIST: `${BASE_URL}/feedback/getFeedback`,
 };
+
+// thijarath 
+// feedback 
